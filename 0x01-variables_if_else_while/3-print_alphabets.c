@@ -10,14 +10,17 @@
 
 int main(void)
 {
-	int x;
+	int x, upper;
+
+	x = getchar();
+	upper = toupper(x);
 
 	for (x = 'a'; x <= 'z', 'Z'; x++)
 	{
 		putchar(x);
 	}
 	{
-		putchar(toupper(x));
+		putchar(upper(x));
 	}
 	{
 		putchar('\n');
