@@ -16,10 +16,10 @@ int main(void)
 	{
 		putchar(x);
 	}
-	{
-		int lower_x = tolower(x);
 
-		putchar(lower_x);
+	for (x = 'a; x <='z'; x++)
+	{
+		putchar(x);
 	}
 
 	putchar('\n');
