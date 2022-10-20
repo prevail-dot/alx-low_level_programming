@@ -10,11 +10,16 @@
 
 int main(void)
 {
-	int x;
+	char x;
 
-	for (x = 'a'; x <= 'z' (x != 'e') && (x != 'q'); x++)
+	while (x <= 'z')
+	{
+
+	if ((x != 'e') && (x != 'q'))
 	{
 		putchar(x);
+	}
+	x++;
 	}
 	putchar('\n');
 
