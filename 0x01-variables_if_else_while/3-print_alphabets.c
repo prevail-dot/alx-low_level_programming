@@ -12,16 +12,17 @@ int main(void)
 {
 	int x;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (x = 'A'; x <= 'Z'; x++)
 	{
 		putchar(x);
 	}
 	{
-		putchar(toupper);
+		int lower_x = tolower(x);
+
+		putchar(lower_x);
 	}
-	{
-		putchar('\n');
-	}
+
+	putchar('\n');
 
 	return (0);
 }
